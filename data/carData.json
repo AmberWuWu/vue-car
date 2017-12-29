@@ -1,0 +1,124 @@
+{
+    "status": 1,
+    "result": {
+        "totalMoney": 59,
+        "list": [{
+            "proId": "000001",
+            "proName": "口红",
+            "proPrice": 10,
+            "proImg": "img/ysl.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                    "name": "化妆棉",
+                    "num": 2
+                },
+                {
+                    "name": "美妆蛋",
+                    "num": 1
+                }
+            ]
+        }, {
+            "proId": "000002",
+            "proName": "面膜",
+            "proPrice": 20,
+            "proImg": "img/mianmo.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                "name": "sk2小样",
+                "num": 1
+            }]
+        }, {
+            "proId": "000003",
+            "proName": "眼影",
+            "proPrice": 30,
+            "proImg": "img/yanying.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                "name": "眼影刷",
+                "num": 2
+            }]
+        }, {
+            "proId": "000004",
+            "proName": "腮红",
+            "proPrice": 40,
+            "proImg": "img/saihong.jpg",
+            "proQuentity": 1,
+            "complimentary": []
+        }, {
+            "proId": "000005",
+            "proName": "唇膏",
+            "proPrice": 50,
+            "proImg": "img/chungao.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                    "name": "化妆棉",
+                    "num": 2
+                },
+                {
+                    "name": "美妆蛋",
+                    "num": 1
+                }
+            ]
+        }, {
+            "proId": "000006",
+            "proName": "粉底液",
+            "proPrice": 60,
+            "proImg": "img/fendiye.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                    "name": "化妆棉",
+                    "num": 2
+                },
+                {
+                    "name": "美妆蛋",
+                    "num": 1
+                }
+            ]
+        }, {
+            "proId": "000007",
+            "proName": "防晒霜",
+            "proPrice": 70,
+            "proImg": "img/fangshaishuang.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                    "name": "化妆棉",
+                    "num": 2
+                },
+                {
+                    "name": "美妆蛋",
+                    "num": 1
+                }
+            ]
+        }, {
+            "proId": "000008",
+            "proName": "口红",
+            "proPrice": 80,
+            "proImg": "img/ysl.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                    "name": "化妆棉",
+                    "num": 2
+                },
+                {
+                    "name": "美妆蛋",
+                    "num": 1
+                }
+            ]
+        }, {
+            "proId": "000009",
+            "proName": "腮红",
+            "proPrice": 90,
+            "proImg": "img/saihong.jpg",
+            "proQuentity": 1,
+            "complimentary": [{
+                    "name": "化妆棉",
+                    "num": 2
+                },
+                {
+                    "name": "美妆蛋",
+                    "num": 1
+                }
+            ]
+        }]
+    }
+}
