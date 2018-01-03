@@ -1,6 +1,7 @@
 var app = new Vue({
     el: '#car',
     data: {
+        all: false, // 全选
         proList: [],
         totalMoney: 0
     },
@@ -14,6 +15,33 @@ var app = new Vue({
         }
     },
     methods: {
+        selectall() {
+            // 全选
+            let that = this;
+            that.all = true;
+            if (that.proList) {
+                that.proList.forEach(item => {
+                    if (typeof item.selected == 'undefined') {
+                        this.$set(item, "selected", true);
+                    } else {
+                        item.selected = true;
+                    }
+                })
+            }
+        },
+        cancelall() {
+            let that = this;
+            that.all = false;
+            if (that.proList) {
+                that.proList.forEach(item => {
+                    if (typeof item.selected == 'undefined') {
+                        this.$set(item, "selected", false);
+                    } else {
+                        item.selected = false;
+                    }
+                })
+            }
+        },
         getData() {
             let that = this;
             that.$http.get('data/carData.json').then(res => {

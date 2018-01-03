@@ -12,8 +12,8 @@
 <body>
     <div id="car">
         <h2>❤我的购物车❤</h2>
-        <span>全选</span>
-        <span>取消全选</span>
+        <span class="select" @click="selectall" v-bind:class="{'font-pink':all}"><span>全选</span></span>
+        <span class="select" @click="cancelall" v-bind:class="{'font-pink':!all}"><span>取消全选</span></span>
         <ul>
             <li v-for="item in proList" class="proList">
                 <div>

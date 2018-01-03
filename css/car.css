@@ -14,11 +14,24 @@ ul li {
     float: left;
     list-style: none;
 }
-
+.select{
+    font-size: 12px;
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+}
+.font-pink{
+    color: pink
+}
 .proList:nth-last-child(1) {
     margin-bottom: 80px;
 }
-
+.proList:nth-child(1){
+    border-top: 1px solid pink;
+}
 .proList {
     width: 100%;
     border-bottom: 1px solid pink;
